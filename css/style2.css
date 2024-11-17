@@ -1,0 +1,387 @@
+@charset "UTF-8";
+
+#Kv {
+  height: 100vh;
+  background-image: url(../images/kvroom.png);
+}
+
+#About {
+  max-width: 1080px;
+  margin: 0px auto 40px auto;
+  padding: 40px 4%;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flextext {
+  width: 48%;
+  align-content: center;
+}
+
+.flexpic {
+  width: 48%;
+  position: relative;
+}
+
+.whitebox {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px 20px;
+}
+
+.sukinamono {
+  padding-left: 20px;
+}
+
+.sukinamono li {
+  list-style: disc;
+}
+
+#Works {
+  padding: 40px 4%;
+}
+
+#Skill {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 40px 4%;
+  overflow: hidden;
+}
+
+.skillbox {
+  height: 380px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.skillbox2 {
+  color: #fff;
+  font-weight: 400;
+  width: 540px;
+  border-radius: 30px;
+  padding: 30px 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.skilltext {
+  margin-bottom: 20px;
+}
+
+.h3red {
+  color: lightcoral;
+  opacity: 0.6;
+}
+
+.h3red2 {
+  color: rgba(0, 0, 0, 0);
+  /* text-shadow: 0px 0px 2px lightpink; */
+  -webkit-text-stroke: 1px #8e0e0e; /*ベンダープレフィックス*/
+  position: absolute;
+  top: -5px;
+  left: -4px;
+}
+
+.webred {
+  background-color: #c95f5d;
+  box-shadow: 4px 4px 4px url(../images/pattern_triangles_red.png);
+  left: 0;
+}
+
+.h3blue {
+  color: #3c4085;
+  text-align: right;
+  opacity: 0.4;
+}
+
+.h3blue2 {
+  color: rgba(0, 0, 0, 0);
+  /* text-shadow: 0px 0px 2px lightpink; */
+  -webkit-text-stroke: 1px #3c4085; /*ベンダープレフィックス*/
+  position: absolute;
+  top: -4px;
+  right: -3px;
+}
+
+.codeblue {
+  background-color: #484b88;
+  right: 0;
+}
+
+.h3green {
+  color: #1c775d;
+  opacity: 0.4;
+}
+
+.h3green2 {
+  color: rgba(0, 0, 0, 0);
+  /* text-shadow: 0px 0px 2px lightpink; */
+  -webkit-text-stroke: 1px #1c775d; /*ベンダープレフィックス*/
+  position: absolute;
+  top: -5px;
+  left: -4px;
+}
+
+.graphicgreen {
+  background-color: #2f836b;
+  left: 0;
+}
+
+.skillicon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #fff;
+  border: #9a9a9a solid 1px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.skillicon2 {
+  width: 120px;
+  background-color: #fff;
+  border: #9a9a9a solid 1px;
+  border-radius: 20px;
+  margin-inline: auto;
+  padding: 20px;
+}
+
+.triangleshadow {
+  opacity: 0.4;
+  width: 560px;
+  height: 300px;
+  border-radius: 30px;
+  position: absolute;
+  z-index: -10;
+}
+
+.redshadow {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(1) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 100%, 0)'/><path d='M27.26 5.415c-.55 0-.9.55-.65 1l2.45 4.75c.2.5.85.5 1.15.1l3.15-4.5c.3-.4 0-1.05-.55-1.1zM10.689 8.068c-.406-.051-.822.31-.778.748l.5 5.3c.05.5.6.8 1.05.5l4.55-3.05c.45-.3.4-.95-.05-1.15l-5.1-2.3a.605.605 0 0 0-.172-.048zM2.406 24.584a.635.635 0 0 0-.345.081l-4.75 2.4c-.45.2-.5.85-.1 1.15l4.45 3.15c.4.3 1 0 1.1-.5l.3-5.55c0-.412-.31-.712-.655-.73zm40 0a.635.635 0 0 0-.345.081l-4.75 2.4c-.45.2-.5.85-.1 1.15l4.45 3.15c.4.3 1 0 1.1-.5l.3-5.55c0-.412-.31-.712-.655-.73zm-22.17 3.108a.744.744 0 0 0-.675.723l.4 5.55c.05.5.6.8 1.05.5l4.45-2.95c.45-.25.4-.9-.05-1.15l-4.8-2.6a.702.702 0 0 0-.376-.073z'  stroke-width='1' stroke='none' fill='hsla(1, 55%, 43%, 1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  bottom: -30px;
+  left: 30px;
+}
+
+.blueshadow {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(1) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 100%, 0)'/><path d='M27.26 5.415c-.55 0-.9.55-.65 1l2.45 4.75c.2.5.85.5 1.15.1l3.15-4.5c.3-.4 0-1.05-.55-1.1zM10.689 8.068c-.406-.051-.822.31-.778.748l.5 5.3c.05.5.6.8 1.05.5l4.55-3.05c.45-.3.4-.95-.05-1.15l-5.1-2.3a.605.605 0 0 0-.172-.048zM2.406 24.584a.635.635 0 0 0-.345.081l-4.75 2.4c-.45.2-.5.85-.1 1.15l4.45 3.15c.4.3 1 0 1.1-.5l.3-5.55c0-.412-.31-.712-.655-.73zm40 0a.635.635 0 0 0-.345.081l-4.75 2.4c-.45.2-.5.85-.1 1.15l4.45 3.15c.4.3 1 0 1.1-.5l.3-5.55c0-.412-.31-.712-.655-.73zm-22.17 3.108a.744.744 0 0 0-.675.723l.4 5.55c.05.5.6.8 1.05.5l4.45-2.95c.45-.25.4-.9-.05-1.15l-4.8-2.6a.702.702 0 0 0-.376-.073z'  stroke-width='1' stroke='none' fill='hsla(237, 51%, 47%, 1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  bottom: -30px;
+  right: 30px;
+}
+
+.greenshadow {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(1) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 100%, 0)'/><path d='M27.26 5.415c-.55 0-.9.55-.65 1l2.45 4.75c.2.5.85.5 1.15.1l3.15-4.5c.3-.4 0-1.05-.55-1.1zM10.689 8.068c-.406-.051-.822.31-.778.748l.5 5.3c.05.5.6.8 1.05.5l4.55-3.05c.45-.3.4-.95-.05-1.15l-5.1-2.3a.605.605 0 0 0-.172-.048zM2.406 24.584a.635.635 0 0 0-.345.081l-4.75 2.4c-.45.2-.5.85-.1 1.15l4.45 3.15c.4.3 1 0 1.1-.5l.3-5.55c0-.412-.31-.712-.655-.73zm40 0a.635.635 0 0 0-.345.081l-4.75 2.4c-.45.2-.5.85-.1 1.15l4.45 3.15c.4.3 1 0 1.1-.5l.3-5.55c0-.412-.31-.712-.655-.73zm-22.17 3.108a.744.744 0 0 0-.675.723l.4 5.55c.05.5.6.8 1.05.5l4.45-2.95c.45-.25.4-.9-.05-1.15l-4.8-2.6a.702.702 0 0 0-.376-.073z'  stroke-width='1' stroke='none' fill='hsla(163, 70%, 40%, 1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  bottom: -30px;
+  left: 30px;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+.icon {
+  width: 80px;
+  margin-inline: auto;
+}
+
+.formbox {
+  max-width: 800px;
+  background-color: #d8c68a;
+  border-radius: 60px;
+  margin: 0 auto 60px auto;
+  padding: 40px 4%;
+}
+
+.littlebig {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+}
+
+.big {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.sebame {
+  color: #8e0e0e;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto 20px auto;
+}
+
+#Contact {
+  max-width: 1080px;
+  margin: 0 auto 0px auto;
+  padding: 40px 4%;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto 60px;
+  padding: 30px 4%;
+  transition: 0.3s;
+}
+
+.item {
+  margin-bottom: 24px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+label span {
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 100;
+  line-height: 1.8;
+  background-color: #8e0e0e;
+  border-radius: 4px;
+  margin: 0 10px 0 0;
+  padding: 0 5px 1px 4px;
+}
+
+input {
+  background-color: #efe9de;
+  border: #9a9a9a solid 1px;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.hababiro {
+  width: 100%;
+  border-radius: 6px;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+input:focus {
+  background-color: #fff;
+}
+
+select {
+  background-color: #efe9de;
+  border: #9a9a9a solid 1px;
+  padding: 4px;
+}
+textarea {
+  width: 100%;
+  background-color: #efe9de;
+  border: #9a9a9a solid 1px;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+textarea:focus {
+  background-color: #fff;
+}
+
+.txcenter {
+  text-align: center;
+}
+
+.kiyaku {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+/* .btn { */
+input[type="submit"] {
+  display: block;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  margin: 60px auto 0 auto;
+  background: #8e0e0e;
+  color: white;
+  font-weight: bold;
+  border-radius: 16px;
+  border: none;
+}
+
+/* ---------nav折り返し--------- */
+
+@media (max-width: 768px) {
+  .flexbox {
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+
+  .flextext {
+    width: 100%;
+  }
+
+  .flexpic {
+    width: 80%;
+    margin: 0 auto 20px auto;
+  }
+
+  .big {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  .h3blue {
+    padding-right: 5%;
+  }
+
+  .h3blue2 {
+    padding-right: 5%;
+  }
+
+  .skillbox {
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .skillbox2 {
+    width: 90%;
+    position: static;
+    margin: 0 auto 40px auto;
+  }
+
+  .skillicon {
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    gap: 20px;
+  }
+
+  .skillicon2 {
+    width: 100px;
+  }
+
+  .icon {
+    width: 60px;
+  }
+
+  .triangleshadow {
+    display: none;
+  }
+
+  .sebame {
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+
+  form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 4%;
+    transition: 0.3s;
+  }
+
+  .kiyaku {
+    font-size: 1.125rem;
+  }
+}
+
+/* 各セクション端～端に広がる時はwidth指定なし section名はidで指定すべし*/
+/* 狭めのセクションはmax-width 1080px  padding ~ 4%*/
+/* htmlのふわっとは、fadeuptrigger 下から上　fadeuptrigger2 左から右　fadeuptrigger3右から左 */

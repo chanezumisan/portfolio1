@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+#Kv {
+  max-width: 1080px;
+  max-height: none;
+  background-image: none;
+  margin-inline: auto;
+  margin-bottom: 20px;
+  padding: 20px 4%;
+}
+
+.kvpic {
+  position: relative;
+}
+
+.kv2pic {
+  width: 450px;
+  margin-inline: auto;
+  padding: 40px 0 0 0;
+  position: relative;
+}
+
+.kv3video {
+  max-width: 800px;
+  margin-inline: auto;
+  padding: 40px 4% 0;
+}
+
+.kv4pic {
+  width: 700px;
+  margin-inline: auto;
+  padding: 40px 0 0 0;
+  position: relative;
+}
+
+.kv4hover {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.kv4hover:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.yokoku {
+  width: 100%;
+  aspect-ratio: 560/315;
+}
+
+.spmock {
+  width: 30%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+h1 {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  color: #1c2031;
+  font-size: 2rem;
+  text-shadow: 4px 4px 4px rgba(150, 150, 150, 0.5);
+}
+
+.category {
+  text-align: center;
+}
+
+.naiyou {
+  padding: 0 4%;
+  margin-bottom: 100px;
+}
+
+.naiyoubox {
+  max-width: 1080px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 40px;
+  margin-inline: auto;
+  padding: 40px 4%;
+}
+
+.dotborder {
+  display: block;
+  width: 90%;
+  height: 1px;
+  border: #404040 dotted 1px;
+  margin: 30px auto 30px auto;
+}
+
+.naiyougrid {
+  width: 92%;
+  display: grid;
+  grid-template-columns: 0.7fr 2fr;
+  gap: 0 30px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.gridtitle {
+  align-content: center;
+  text-align: center;
+}
+
+.HPlink {
+  color: #ae0000;
+  border-bottom: #ae0000 solid 1px;
+  word-break: break-all;
+}
+
+.HPpic {
+  max-width: 1080px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 0 10%;
+  margin-inline: auto;
+  margin-bottom: 100px;
+  padding: 0 4%;
+}
+
+.HPpc p,
+.HPsp p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.DTPpic {
+  max-width: 1080px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8%;
+  margin-inline: auto;
+  padding: 40px 4%;
+}
+
+.DTPpic p {
+  margin-bottom: 20px;
+}
+
+/* ---------nav折り返し--------- */
+
+@media (max-width: 768px) {
+  #Kv {
+    max-height: 450px;
+    margin-bottom: 0;
+  }
+
+  .kv2pic {
+    width: 80%;
+  }
+
+  .kv4pic {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+  .naiyougrid {
+    width: 85%;
+    grid-template-columns: 1fr;
+  }
+
+  .gridtitle {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .gridnaiyou ul {
+    margin-bottom: 20px;
+  }
+
+  .dotborder {
+    width: 80%;
+    margin: 20px auto 20px auto;
+  }
+
+  .HPpic {
+    display: none;
+  }
+
+  .DTPpic {
+    display: block;
+    width: 90%;
+    margin-inline: auto;
+  }
+
+  .DTPdiv {
+    margin-bottom: 40px;
+  }
+}

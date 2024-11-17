@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Work Portfolio</title>
+    <meta
+      name="descrition"
+      content="Webデザイン、グラフィックデザインをしています。"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="”og:title”" content="Work | Portfolio" />
+    <meta property="”og:description”" content="" />
+    <meta property=”og:url” content=”http://chanezumi.starfree.jp/Portfolio/” />
+    <meta
+      property="”og:image”"
+      content="http://chanezumi.starfree.jp/portfolio/images/banner.jpg"
+    />
+    <meta property="”og:type”" content="”article”" />
+    <meta property="”og:site_name”" content="Portfolio" />
+    <!-- ロボット -->
+    <meta name="robots" content="all" />
+    <meta
+      name="thumbnail"
+      content="http://chanezumi.starfree.jp/portfolio/images/banner.jpg"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poller+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poller+One&family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/work.css" />
+    <link rel="stylesheet" href="css/gnav3.css" />
+    <link rel="stylesheet" href="css/list2.css" />
+
+    <link rel="icon" href="images/minumalogoblue.svg" type="logo" />
+    <script
+      src="https://kit.fontawesome.com/2a7e02ba7a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="wrapper">
+        <button
+          id="toggle"
+          class="hamburger"
+          type="button"
+          aria-label="メニューを開く"
+          aria-controls="nav"
+          aria-expanded="false"
+        >
+          <span class="hamburgerLine"></span>
+        </button>
+        <nav id="nav" class="nav" aria-hidden="true">
+          <ul id="menu" class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#About">About</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="index.html#Skill">Skill</a></li>
+            <li><a href="index.html#Contact">Contact</a></li>
+          </ul>
+        </nav>
+        <section id="mask2" class="mask2"></section>
+
+        <svg
+          class="overlay"
+          width="100%"
+          height="100%"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+        >
+          <path
+            id="overlayPath"
+            class="overlayPath"
+            vector-effect="non-scaling-stroke"
+            d="M 0 100 V 100 Q 50 100 100 100 V 100 z"
+          />
+        </svg>
+      </div>
+    </header>
+    <!-- <section id="Kv"> -->
+    <!-- <h1>OMI's Portfolio</h1> -->
+    <!-- </section> -->
+
+    <section id="Works">
+      <h2><span>Works</span></h2>
+      <p class="h2under">制作したもの</p>
+
+      <div class="toolbar">
+        <label>
+          <input type="checkbox" checked name="color" value="red" />
+          Webデザイン
+        </label>
+        <label>
+          <input type="checkbox" checked name="color" value="green" />
+          グラフィック
+        </label>
+        <label>
+          <input type="checkbox" checked name="color" value="blue" />
+          その他
+        </label>
+      </div>
+
+      <div class="container">
+        <div class="workbox box" data-color="red" data-id="1">
+          <a href="minuma.html">
+            <div class="workpic">
+              <img src="images/minuma.jpg" alt="" />
+            </div>
+            　
+            <div class="worktext">
+              <p class="category">
+                <span class="cateweb">Webデザイン</span>
+              </p>
+              <h4>見沼製鋼株式会社【架空サイト】</h4>
+            </div>
+          </a>
+        </div>
+
+        <div class="workbox box" data-color="red" data-id="2">
+          <a href="synant.html">
+            <div class="workpic"><img src="images/synant.jpg" alt="" /></div>
+            <div class="worktext">
+              <p class="category">
+                <span class="cateweb">Webデザイン</span>
+              </p>
+              <h4>Synant Camp Village【架空サイト】</h4>
+            </div>
+          </a>
+        </div>
+
+        <div class="workbox box" data-color="green" data-id="3">
+          <a href="autumnsale.html">
+            <div class="workpic">
+              <img src="images/autumnsale.jpg" alt="" />
+            </div>
+            <div class="worktext">
+              <p class="category">
+                <span class="categra">グラフィック</span>
+              </p>
+              <h4>C.A.社　秋服セールバナー</h4>
+            </div>
+          </a>
+        </div>
+
+        <div class="workbox box" data-color="blue" data-id="4">
+          <a href="chinchilla.html">
+            <div class="workpic">
+              <img
+                src="images/chinchillakajiri3.jpg"
+                onmouseover="this.src='images/chinchillaSP2.jpg'"
+                onmouseout="this.src='images/chinchillakajiri3.jpg'"
+                alt=""
+              />
+            </div>
+            <div class="worktext">
+              <p class="category">
+                <span class="catehoka">その他</span>
+              </p>
+              <h4>チンチラスマホケース</h4>
+            </div>
+          </a>
+        </div>
+
+        <div class="workbox box" data-color="red" data-id="5">
+          <a href="sausage.html">
+            <div class="workpic">
+              <img src="images/sausage.jpg" alt="" />
+            </div>
+            <div class="worktext">
+              <p class="category">
+                <span class="cateweb">Webデザイン</span>
+              </p>
+              <h4>4種のジビエソーセージ販促サイト【架空サイト】</h4>
+            </div>
+          </a>
+        </div>
+
+        <div class="workbox box" data-color="green" data-id="6">
+          <a href="tour.html">
+            <div class="workpic">
+              <img
+                src="images/tourbanner.jpg"
+                onmouseover="this.src='images/tourbanner.gif'"
+                onmouseout="this.src='images/tourbanner.jpg'"
+                alt=""
+              />
+            </div>
+            <div class="worktext">
+              <p class="category">
+                <span class="categra">グラフィック</span>
+              </p>
+              <h4>旅行会社ハワイツアー用バナー</h4>
+            </div>
+          </a>
+        </div>
+
+        <div class="workbox box" data-color="green" data-id="7">
+          <a href="thumbnail.html">
+            <div class="workpic">
+              <img src="images/bgm_samune.png" alt="" />
+            </div>
+            <div class="worktext">
+              <p class="category">
+                <span class="categra">グラフィック</span>
+              </p>
+              <h4>Yuotube 作業用BGMサムネイル</h4>
+            </div>
+          </a>
+        </div>
+
+        <div class="workbox box" data-color="blue" data-id="8">
+          <a href="yokokudouga.html">
+            <div class="workpic">
+              <img
+                src="images/douga1.jpg"
+                onmouseover="this.src='images/yokoku.gif'"
+                onmouseout="this.src='images/douga1.jpg'"
+                alt=""
+              />
+            </div>
+            <div class="worktext">
+              <p class="category">
+                <span class="catehoka">その他</span>
+              </p>
+              <h4>映画予告【動画】</h4>
+            </div>
+          </a>
+        </div>
+
+        <div class="workbox box" data-color="red" data-id="9">
+          <a href="portfolio.html">
+            <div class="workpic">
+              <img src="images/portfoliothumbnail.jpg" alt="" />
+            </div>
+            <div class="worktext">
+              <p class="category">
+                <span class="cateweb">Webデザイン</span>
+              </p>
+              <h4>ポートフォリオサイト</h4>
+            </div>
+          </a>
+        </div>
+
+        <div class="workbox box" data-color="blue" data-id="10">
+          <a href="cafemanatea.html">
+            <div class="workpic nohoverscale">
+              <img
+                src="images/cafeMANAteaMockupafter.jpg"
+                onmouseover="this.src='images/cafeMANAteaMockupbefore.jpg'"
+                onmouseout="this.src='images/cafeMANAteaMockupafter.jpg'"
+                alt=""
+              />
+            </div>
+            <div class="worktext">
+              <p class="category">
+                <span class="catehoka">その他</span>
+              </p>
+              <h4>カフェマナティ メニュー表</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="workgrid"></div>
+    </section>
+
+    <footer>
+      <div class="footergrid">
+        <div>
+          <p><a href="index.html">HOME</a></p>
+        </div>
+        <div>
+          <p><a href="index.html#About">About</a></p>
+        </div>
+        <div>
+          <p><a href="#">Works</a></p>
+        </div>
+        <div>
+          <p><a href="index.html#Skill">Skill</a></p>
+        </div>
+
+        <div>
+          <p><a href="index.html#Contact">Contact</a></p>
+        </div>
+      </div>
+      　
+      <p><small>2024　&copy;OMI's Portfolio</small></p>
+    </footer>
+
+    <div class="toplogo">
+      <a href="index.html">
+        <img src="images/logo.svg" alt="" />
+      </a>
+    </div>
+
+    <script src="js/list2.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/SplitType.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/splittext.min.js"></script>
+    <script src="js/gnav.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

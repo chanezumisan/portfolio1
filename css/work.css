@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+#Kv {
+  height: 100vh;
+  background-image: url(../images/CGpasocon3.jpg);
+}
+
+#About {
+  max-width: 1080px;
+  margin: 0px auto 40px auto;
+  padding: 40px 4%;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flextext {
+  width: 48%;
+  align-content: center;
+}
+
+.flexpic {
+  width: 48%;
+  position: relative;
+}
+
+.whitebox {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px 20px;
+}
+
+.sukinamono {
+  padding-left: 20px;
+}
+
+.sukinamono li {
+  list-style: disc;
+}
+
+.underline {
+  text-align: center;
+}
+
+.underline span {
+  border-bottom: #9a9a9a solid 2px;
+}
+
+#Works {
+  padding: 40px 4%;
+}
+
+#Skill {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 40px 4%;
+}
+
+.skillbox {
+  height: 380px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.skillbox2 {
+  color: #fff;
+  font-weight: 400;
+  width: 540px;
+  border-radius: 30px;
+  padding: 30px 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.skilltext {
+  margin-bottom: 20px;
+}
+
+.h3red {
+  color: #ae0000;
+  opacity: 0.6;
+}
+
+.webred {
+  background-color: #c95f5d;
+  box-shadow: 4px 4px 4px url(../images/pattern_triangles_red.png);
+  left: 0;
+}
+
+.h3blue {
+  color: #3c4085;
+  text-align: right;
+  opacity: 0.6;
+}
+
+.codeblue {
+  background-color: #484b88;
+  right: 0;
+}
+
+.h3green {
+  color: #1c775d;
+  opacity: 0.6;
+}
+
+.graphicgreen {
+  background-color: #2f836b;
+  left: 0;
+}
+
+.skillicon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #fff;
+  border: #9a9a9a solid 1px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+.icon {
+  width: 80px;
+  margin: 0 auto;
+}
+
+.nohoverscale img:hover {
+  scale: 1;
+  transition: 0.3s;
+}
+
+/* ---------nav折り返し--------- */
+
+@media (max-width: 768px) {
+  .flexbox {
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+
+  .flextext {
+    width: 100%;
+  }
+
+  .flexpic {
+    width: 80%;
+    margin: 0 auto 20px auto;
+  }
+
+  .big {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  .h3blue {
+    padding-right: 5%;
+  }
+
+  .skillbox {
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .skillbox2 {
+    width: 90%;
+    position: static;
+    margin: 0 auto 40px auto;
+  }
+
+  .skillicon {
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    gap: 20px;
+  }
+
+  .icon {
+    width: 60px;
+    margin: 0 auto;
+  }
+
+  .sebame {
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+
+  form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 4%;
+    transition: 0.3s;
+  }
+
+  .kiyaku {
+    font-size: 1.125rem;
+  }
+}
+
+/* 各セクション端～端に広がる時はwidth指定なし section名はidで指定すべし*/
+/* 狭めのセクションはmax-width 1080px  padding ~ 4%*/
+/* htmlのふわっとは、fadeuptrigger 下から上　fadeuptrigger2 左から右　fadeuptrigger3右から左 */

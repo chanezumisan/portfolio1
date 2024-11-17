@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  /* font-family: "Montserrat", sans-serif; */
+}
+
+text {
+  font-family: "Montserrat", sans-serif;
+}
+
+.topdiv {
+  position: absolute;
+}
+
+main {
+  font-size: 6.25rem;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  /* max-width: 1400px; */
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+main image {
+  width: 100%;
+}
+
+.scrollDist {
+  width: 100%;
+  height: 150%;
+  /* transition: 1s; */
+}
+
+/* 追記部分↓ */
+
+.uramen {
+  height: 150%;
+  transition: 0.7s;
+}
+
+#sptop {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .uramen {
+    height: 130%;
+  }
+}
+
+@media (max-width: 500px) {
+  #sptop {
+    height: 100vh;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    background-image: url(../images/kvroom.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 40px;
+    padding: 40px 0;
+  }
+
+  main {
+    display: none;
+  }
+
+  .uramen {
+    height: 0%;
+  }
+}

@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/*==================================================
+ふわっ
+===================================*/
+
+/* fadeUp */
+
+.fadeUp {
+	animation-name: fadeUpAnime;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+@keyframes fadeUpAnime {
+	from {
+		opacity: 0;
+		transform: translateY(100px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+
+.fadeUpTrigger {
+	opacity: 0;
+}
+
+/* =========================fadeSide=========================================== */
+
+.fadeSide {
+	animation-name: fadeSideAnime;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+@keyframes fadeSideAnime {
+	from {
+		opacity: 0;
+		transform: translateX(-100px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+/* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+
+.fadeUpTrigger2 {
+	opacity: 0;
+}
+
+/* =========================fadeSide=========================================== */
+
+.fadeSide2 {
+	animation-name: fadeSideAnime2;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+@keyframes fadeSideAnime2 {
+	from {
+		opacity: 0;
+		transform: translateX(100px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+/* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+
+.fadeUpTrigger3 {
+	opacity: 0;
+}
