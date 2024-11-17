@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g>
+	<g>
+		<polygon fill="#166EAC" points="49.949,96.794 16.806,87.593 9.42,4.75 90.579,4.75 83.184,87.579 		"/>
+		<polygon fill="#35A1D0" points="76.854,82.305 83.175,11.524 50,11.524 50,89.75 		"/>
+	</g>
+	<g>
+		<polygon fill="#EBEBEB" points="27.293,52.544 74.536,31.979 75.446,21.819 26.387,42.384 		"/>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="48.6572" y1="38.0537" x2="29.9891" y2="47.0731">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#000000"/>
+		</linearGradient>
+		<polygon opacity="0.2" fill="url(#SVGID_1_)" points="27.293,52.544 74.536,31.979 75.446,21.819 26.387,42.384 		"/>
+		<polygon fill="#EBEBEB" points="49.995,21.819 24.553,21.819 24.795,24.544 25.459,31.979 50.03,31.979 50.03,21.819 		"/>
+		<polygon fill="#FFFFFF" points="73.613,42.384 49.995,42.384 49.995,52.544 62.507,52.544 61.326,65.721 49.995,68.78 
+			49.995,79.35 70.822,73.576 		"/>
+		<polygon fill="#FFFFFF" points="49.995,32.488 49.995,42.661 74.536,31.979 75.446,21.819 		"/>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="49.9951" y1="32.2402" x2="75.4463" y2="32.2402">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#000000"/>
+		</linearGradient>
+		<polygon opacity="0.3" fill="url(#SVGID_2_)" points="49.995,32.488 49.995,42.661 74.536,31.979 75.446,21.819 		"/>
+		<polygon fill="#EBEBEB" points="26.387,42.384 27.293,52.544 50.03,52.544 50.03,42.384 		"/>
+		<polygon fill="#FFFFFF" points="75.446,21.819 49.995,21.819 49.995,31.955 49.995,31.979 74.504,31.979 74.504,31.979 
+			74.536,31.979 		"/>
+		<polygon fill="#EBEBEB" points="49.997,68.782 49.995,68.782 38.68,65.727 37.957,57.624 32.458,57.624 27.757,57.624 
+			29.181,73.576 49.992,79.355 49.997,79.354 		"/>
+	</g>
+</g>
+</svg>
